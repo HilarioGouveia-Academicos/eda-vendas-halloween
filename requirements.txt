@@ -1,0 +1,5 @@
+# Manipulación y análisis de datos
+pandas>=2.0.0
+
+# Dashboard interactivo
+streamlit>=1.30.0
