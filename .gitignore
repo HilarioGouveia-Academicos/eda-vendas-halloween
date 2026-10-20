@@ -1,0 +1,55 @@
+# Ambientes Virtuais (Virtual Environments)
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Ficheiros de Cache do Python e Bytecodes
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Dados locais e ficheiros de grandes dimensões
+# (Mantenha descomentado se não pretender sincronizar os ficheiros CSV/ZIP pesados com o Git)
+# *.csv
+# *.zip
+
+# Cache e configurações locais do Streamlit
+.streamlit/
+*.streamlit/
+
+# Configurações de Editores de Código e IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Distribuição, builds e pacotes Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Ficheiros de log e relatórios temporários
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ficheiros temporários de sistemas operativos
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Variáveis de ambiente e segredos locais
+.env.local
+.env.*.local
